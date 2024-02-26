@@ -12,7 +12,7 @@ address:
   postcode: ''
   country: Iran
 
-summary: Can you hack deep learning models? Imagine your self driving car sees a "Stop" sign and thinks, yea that is definitely a "120km/h speed limit" sign.
+summary:
 abstract:
 
 # Talk start and end times.
