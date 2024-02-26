@@ -58,3 +58,4 @@ slides: example
 #   Otherwise, set `projects = []`.
 projects:
   - example
+---
