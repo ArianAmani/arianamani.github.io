@@ -43,7 +43,7 @@ categories:
 ---
 
 # Deep Learning Road Map
-![nn](https://github.com/ArianAmani/DL-RoadMap/blob/main/docs/nn.jpeg)
+![nn](https://github.com/ArianAmani/DL-RoadMap/docs/nn.jpeg)
 
 
 ## ***A link to this article on Medium: [A Deep Learning Road Map And Where To Start](https://medium.com/@ArianAmani/the-deep-learning-road-map-that-i-took-c29120b0f5e2)***
@@ -62,7 +62,7 @@ Well, I’m a huge fan of the **second opinion** and I really don’t like the f
 
 The reason I prefer the second path is that **if you just learn to write code and don’t know what exactly is happening behind that code, you can’t actually solve problems on your own.** Say you get a task with a few problems to solve, and you need to choose a Machine Learning algorithm to tackle these problems. All these problems are numerical and therefore need mathematical computation and solutions. You’ll face new problems that you haven’t seen before and without knowing the math and the logic behind these algorithms, you can’t choose the right solution to your problem (and of course, you can’t try them all to find which one works best).
 
-![classroom](https://github.com/ArianAmani/DL-RoadMap/blob/main/docs/class.webp)
+![classroom](https://github.com/ArianAmani/DL-RoadMap/docs/class.webp)
 
 So knowing these, let’s start talking about the path itself.\
 *In most of the parts, I'll introduce different sources based on how deep you want to get or how much time you've got.*
@@ -71,7 +71,7 @@ So knowing these, let’s start talking about the path itself.\
 
 ## Mathematics
 As a Computer Science student myself, I was familiar with most of the math I needed to start, but if you're starting with not much background in mathematics, this is where I'd suggest you start (If you're familiar with these, feel free to skip):
-![nn](https://github.com/ArianAmani/DL-RoadMap/blob/main/docs/mapofmath.jpg)
+![nn](https://github.com/ArianAmani/DL-RoadMap/docs/mapofmath.jpg)
 - ### Linear Algebra:
 	- Fast and efficient way: 
 		[Coursera Mathematics for Machine Learning: Linear Algebra](https://www.coursera.org/learn/linear-algebra-machine-learning?specialization=mathematics-machine-learning) <br>
@@ -104,9 +104,9 @@ You’re going to need some programming skills(preferably in python) before gett
 - [SoloLearn Python 3 Tutorial](https://www.sololearn.com/Course/Python/) (Free)
 - [Udemy Complete Python Developer in 2022: Zero to Mastery](https://www.udemy.com/course/complete-python-developer-zero-to-mastery/)(Paid)
 
-![nn](https://github.com/ArianAmani/DL-RoadMap/blob/main/docs/python.png)
+![nn](https://github.com/ArianAmani/DL-RoadMap/docs/python.png)
 ## Machine Learning
-![nn](https://github.com/ArianAmani/DL-RoadMap/blob/main/docs/ml.jpg)
+![nn](https://github.com/ArianAmani/DL-RoadMap/docs/ml.jpg)
 Now we're getting to the fun parts.
 
 Again here, I'm going to recommend two courses, one easier to follow, and one more deep and academic.
@@ -141,7 +141,7 @@ Again here, I'm going to recommend two courses, one easier to follow, and one mo
 
 ## Deep Learning
 Ah, finally the great field of Neural Networks.
-![nn](https://github.com/ArianAmani/DL-RoadMap/blob/main/docs/dl.png)
+![nn](https://github.com/ArianAmani/DL-RoadMap/docs/dl.png)
 Deep Learning is a part of ML and as today, it's the most famous and the most useful part.
 It isn't a new method actually, it was introduced in 1943 by Warren McCulloch and Walter Pitts. But back then, we didn't have the computational resources to carry out the calculations in a Neural Network Model. So it wasn't used much.
 
