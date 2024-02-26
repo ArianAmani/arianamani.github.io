@@ -1,5 +1,5 @@
 ---
-title: Example Talk
+title: Introduction to Adversarial Machine Learning
 
 event: MCSTalk
 event_url: https://t.me/MCS_SSC
