@@ -273,7 +273,7 @@ sections:
       address:
         street:
         city: Rome
-        region: Rome
+        region: Italy
         postcode: ''
         country: Italy
         country_code: IT
