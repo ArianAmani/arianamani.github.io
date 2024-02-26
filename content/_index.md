@@ -106,7 +106,7 @@ sections:
         - title: Teaching Assistant
           company: Sharif University of Technology
           # company_url: 'https://www.sanger.ac.uk/group/lotfollahi-group/'
-          company_logo: org-aut
+          company_logo: org-sut
           location: Tehran, Iran
           date_start: '2022-09-01'
           date_end: '2023-08-31'
@@ -115,19 +115,18 @@ sections:
                 * Prepared teaching material on CNNs & AutoEncoders, designed assignments, and coordinated class contests.
               * Introduction to Machine Learning | Fall 2022
                 * Designed and graded assignments for a class of 150 students, conducted a workshop on Variational AutoEncoders.
-        - title: Computer Vision Engineer
-          company: Virasad
-          company_url: 'https://virasad.ir/'
-          company_logo: org-virasad
+        - title: Teaching Assistant
+          company: Amirkabir University of Technology
+          # company_url: 'https://virasad.ir/'
+          company_logo: org-aut
           location: Tehran, Iran
-          date_start: '2022-01-01'
-          date_end: '2022-05-31'
+          date_start: '2021-09-01'
+          date_end: '2022-03-31'
           description: |2-
-              Responsibilities include:
-
-              * Delivered >95% accuracy solutions for tasks with limited data (15 images per class)
-              * Spearheaded development on 5 diverse projects meeting client requirements
-              * Led individual projects, enhancing development pipelines
+              * Introduction to Image Processing and Neural Networks | Fall 2022
+                * Conducted workshops and lectures on OpenCV and Deep Learning for a class of 80 students.
+              * Advanced Programming with C++ | Spring 2022
+                * Designed assignments and projects for a class of 90 students, evaluated student submissions.
     design:
       columns: '2'
   - block: accomplishments
