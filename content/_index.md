@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ''
-date: 2022-10-24
+date: 2024-02-26
 type: landing
 
 sections:
@@ -62,23 +62,24 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+        - title: Data Scientist
+          company: Wellcome Sanger Institute
+          company_url: 'https://www.sanger.ac.uk/group/lotfollahi-group/'
+          company_logo: org-Sanger
+          location: Hinxton, United Kingdom
+          date_start: '2022-11-01'
           date_end: ''
           description: |2-
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
+              * Research assistant at [Dr. Mo Lotfollahi’s](https://www.sanger.ac.uk/group/lotfollahi-group/) lab
+              * Collaborated on several ML projects in Single-Cell Genomics and Drug Discovery mainly using PyTorch
+              * Developed task-specific fine-tuning pipelines on generative and transformer models
+              * Contributed to ongoing projects like CPA: Compositional Perturbation Autoencoder [(GitHub)](https://github.com/theislab/cpa)
+        - title: Computer Vision Engineer
+          company: Virasad
+          company_url: 'https://virasad.ir/'
+          company_logo: 
           location: California
           date_start: '2016-01-01'
           date_end: '2020-12-31'
