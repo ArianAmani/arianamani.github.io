@@ -260,48 +260,48 @@ sections:
   #     title: Popular Topics
   #   design:
   #     columns: '2'
-  # - block: contact
-  #   id: contact
-  #   content:
-  #     title: Contact
-  #     subtitle:
-  #     text:
-  #     # Contact (add or remove contact options as necessary)
-  #     email: arianamaani@gmail.com
-  #     phone:
-  #     appointment_url: ''
-  #     address:
-  #       street:
-  #       city: Rome
-  #       region: Rome
-  #       postcode: ''
-  #       country: Italy
-  #       country_code: IT
-  #     directions: 
-  #     office_hours:
-  #     # Choose a map provider in `params.yaml` to show a map from these coordinates
-  #     coordinates:
-  #       latitude: ''
-  #       longitude: ''
-  #     contact_links:
-  #       - icon: twitter
-  #         icon_pack: fab
-  #         name: DM Me
-  #         link: 'https://twitter.com/ArianAmaani'
-  #       - icon: linkedin
-  #         icon_pack: fab
-  #         name: Contact Me
-  #         link: 'https://linkedin.com/in/ArianAmani'
-  #     # Automatically link email and phone or display as text?
-  #     autolink: true
-  #     # Email form provider
-  #     form:
-  #       provider: netlify
-  #       formspree:
-  #         id:
-  #       netlify:
-  #         # Enable CAPTCHA challenge to reduce spam?
-  #         captcha: false
-  #   design:
-  #     columns: '2'
+  - block: contact
+    id: contact
+    content:
+      title: Contact
+      subtitle:
+      text:
+      # Contact (add or remove contact options as necessary)
+      email: arianamaani@gmail.com
+      phone:
+      appointment_url: ''
+      address:
+        street:
+        city: Rome
+        region: Rome
+        postcode: ''
+        country: Italy
+        country_code: IT
+      directions: 
+      office_hours:
+      # Choose a map provider in `params.yaml` to show a map from these coordinates
+      coordinates:
+        latitude: ''
+        longitude: ''
+      contact_links:
+        - icon: twitter
+          icon_pack: fab
+          name: DM Me
+          link: 'https://twitter.com/ArianAmaani'
+        - icon: linkedin
+          icon_pack: fab
+          name: Contact Me
+          link: 'https://linkedin.com/in/ArianAmani'
+      # Automatically link email and phone or display as text?
+      autolink: true
+      # Email form provider
+      form:
+        provider: netlify
+        formspree:
+          id:
+        netlify:
+          # Enable CAPTCHA challenge to reduce spam?
+          captcha: false
+    design:
+      columns: '2'
 ---
