@@ -91,7 +91,7 @@ sections:
               * Led individual projects, enhancing development pipelines
     design:
       columns: '2'
-  - block: experience
+  - block: teachexperience
     content:
       title: Teaching Experience
       # Date format for experience
