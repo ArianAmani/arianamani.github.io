@@ -1,8 +1,8 @@
 ---
 title: Example Talk
 
-event: Hugo Blox Builder Conference
-event_url: https://example.org
+event: MCSTalk
+event_url: https://t.me/MCS_SSC
 
 location: Computer Science Department, AUT
 address:
