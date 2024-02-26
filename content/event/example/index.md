@@ -1,5 +1,5 @@
 ---
-title: introduction-to-adversarial-machine-learning
+title: Introduction to Adversarial Machine Learning
 
 event: MCSTalk
 event_url: aut.ac.ir
