@@ -91,7 +91,7 @@ sections:
               * Led individual projects, enhancing development pipelines
     design:
       columns: '2'
-  - block: teachexperience
+  - block: experience
     content:
       title: Teaching Experience
       # Date format for experience
@@ -105,8 +105,8 @@ sections:
       items:
         - title: Teaching Assistant
           company: Sharif University of Technology
-          # company_url: 'https://www.sanger.ac.uk/group/lotfollahi-group/'
-          # company_logo: org-sut
+          company_url:
+          company_logo:
           location: Tehran, Iran
           date_start: '2022-09-01'
           date_end: '2023-08-31'
@@ -117,8 +117,8 @@ sections:
                 * Designed and graded assignments for a class of 150 students, conducted a workshop on Variational AutoEncoders.
         - title: Teaching Assistant
           company: Amirkabir University of Technology
-          # company_url: 'https://virasad.ir/'
-          # company_logo: org-aut
+          company_url:
+          company_logo:
           location: Tehran, Iran
           date_start: '2021-09-01'
           date_end: '2022-03-31'
