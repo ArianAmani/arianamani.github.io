@@ -6,7 +6,7 @@ event_url: aut.ac.ir
 
 location: Computer Science Department, AUT
 address:
-  street: 
+  street:
   city: Tehran
   region: Tehran
   postcode: ''
@@ -31,7 +31,7 @@ tags: []
 featured: false
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://ibb.co/RT1GTQT)'
+  caption:
   focal_point: Right
 
 links:
