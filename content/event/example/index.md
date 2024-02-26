@@ -13,7 +13,7 @@ address:
   country: Iran
 
 summary: Can you hack deep learning models? Imagine your self driving car sees a "Stop" sign and thinks, yea that is definitely a "120km/h speed limit" sign.
-abstract: 'With all the advances in machine learning and especially in deep learning, you may think that these models are robust and almost perfect in at least the easier tasks such as identifying animals. Unfortunately you're wrong. While these models have shown great achievements in many tasks, even better than humans, they're very vulnerable to a family of attacks called "Adversarial Attacks", an unsolved problem and an active field of research in machine learning, which we are going to talk about in this presentation.'
+abstract: With all the advances in machine learning and especially in deep learning, you may think that these models are robust and almost perfect in at least the easier tasks such as identifying animals. Unfortunately you're wrong. While these models have shown great achievements in many tasks, even better than humans, they're very vulnerable to a family of attacks called "Adversarial Attacks", an unsolved problem and an active field of research in machine learning, which we are going to talk about in this presentation.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
