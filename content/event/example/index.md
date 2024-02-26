@@ -31,8 +31,8 @@ tags: []
 featured: true
 
 image:
-  caption:
-  focal_point:
+  caption: 'Image credit: [**MCS_SSC**](https://t.me/MCS_SSC/1669)'
+  focal_point: Right
 
 links:
   - icon: twitter
