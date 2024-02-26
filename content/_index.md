@@ -106,7 +106,7 @@ sections:
         - title: Teaching Assistant
           company: Sharif University of Technology
           # company_url: 'https://www.sanger.ac.uk/group/lotfollahi-group/'
-          company_logo: org-sut
+          # company_logo: org-sut
           location: Tehran, Iran
           date_start: '2022-09-01'
           date_end: '2023-08-31'
@@ -118,7 +118,7 @@ sections:
         - title: Teaching Assistant
           company: Amirkabir University of Technology
           # company_url: 'https://virasad.ir/'
-          company_logo: org-aut
+          # company_logo: org-aut
           location: Tehran, Iran
           date_start: '2021-09-01'
           date_end: '2022-03-31'
