@@ -65,7 +65,7 @@ sections:
         - title: Data Scientist
           company: Wellcome Sanger Institute
           company_url: 'https://www.sanger.ac.uk/group/lotfollahi-group/'
-          company_logo: org-Sanger
+          company_logo: org-sanger
           location: Hinxton, United Kingdom
           date_start: '2022-11-01'
           date_end: ''
@@ -79,7 +79,7 @@ sections:
         - title: Computer Vision Engineer
           company: Virasad
           company_url: 'https://virasad.ir/'
-          company_logo: 
+          company_logo: org-virasad
           location: California
           date_start: '2016-01-01'
           date_end: '2020-12-31'
