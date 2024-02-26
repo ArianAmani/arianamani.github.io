@@ -33,7 +33,7 @@ bio: I am a Computer Science student at the Sapienza University of Rome, studyin
 interests:
   - Deep Generative Models
   - Drug Discovery & Genomics
-  - Neural Network Optimization & Generalization
+  - Single-Cell Genomics
   - Adversarial Robustness
 
 # Education to show in About widget
