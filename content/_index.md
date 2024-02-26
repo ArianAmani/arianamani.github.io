@@ -112,11 +112,9 @@ sections:
           date_end: '2023-08-31'
           description: |2-
               * Machine Learning for Bioinformatics (Graduate Course) | Spring 2023
-                * Prepared teaching material on CNNs & AutoEncoders, designed assignments, and coordinated class
-contests.
+                * Prepared teaching material on CNNs & AutoEncoders, designed assignments, and coordinated class contests.
               * Introduction to Machine Learning | Fall 2022
-                * Designed and graded assignments for a class of 150 students, conducted a workshop on Variational
-AutoEncoders.
+                * Designed and graded assignments for a class of 150 students, conducted a workshop on Variational AutoEncoders.
         - title: Computer Vision Engineer
           company: Virasad
           company_url: 'https://virasad.ir/'
