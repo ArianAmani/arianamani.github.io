@@ -27,7 +27,7 @@ organizations:
   #   url: https://www.uniroma1.it/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a Computer Science student at the Sapienza University of Rome, studying, working on, and researching deep learning applications in Life Sciences such as Single-Cell Genomics and Drug Discovery with a focus on Generative Models as a remote research assistant at the Wellcome Sanger Institute.
+bio: I am a Computer Science student/researcher at the Sapienza University of Rome, studying, working on, and researching deep learning applications in Life Sciences such as Single-Cell Genomics and Drug Discovery with a focus on Generative Models as a remote research assistant at the Wellcome Sanger Institute.
 
 # Interests to show in About widget
 interests:
@@ -39,9 +39,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: BSc in Applied Computer Science & Artificial Intelligence
-      institution: Sapienza University of Rome
-      year: 2023
+    - course: BSc in Computer Science
+      institution: Amirkabir University of Technology
+      year: 2020
 
 # Skills
 # For available icons, see: https://docIntelligences.hugoblox.com/getting-started/page-builder/#icons
