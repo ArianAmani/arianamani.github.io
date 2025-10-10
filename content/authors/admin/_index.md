@@ -112,5 +112,9 @@ social:
 highlight_name: true
 ---
 
-Arian Amani is a data scientist/research collaborator at the Wellcome Sanger Institute. His research interests include Representation Learning, Drug Discovery, Neural Network Generalization, and Single-Cell Genomics. He is a student at the Sapienza University of Rome, and a research assistant at the [Lotfollahi Group](https://www.sanger.ac.uk/group/lotfollahi-group/), working on applications of machine learning, in various areas of life sciences, most importantly single-cell genomics and drug discovery.
+Arian Amani is a machine learning scientist at AI VIVO and a data scientist/research collaborator at the Wellcome Sanger Institute, working at the intersection of computational biology and drug discovery,
+developing deep generative and foundation models for molecules and cells. Experienced with molecule
+generation and single-cell perturbation modeling (VAEs, Diffusions, Transformers, GNNs, FlowMatchings), and
+representation learning for biological and chemical systems. Passionate about building AI methods that
+accelerate target discovery and therapeutic design. He is a student at the Sapienza University of Rome, and a research assistant at the [Lotfollahi Group](https://www.sanger.ac.uk/group/lotfollahi-group/), working on applications of machine learning, in various areas of life sciences, most importantly single-cell genomics and drug discovery.
 {style="text-align: justify;"}
