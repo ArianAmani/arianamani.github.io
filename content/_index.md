@@ -62,6 +62,20 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Machine Learning Scientist
+          company: AI VIVO
+          company_url: ''
+          company_logo: 
+          location: Cambridge, United Kingdom
+          date_start: '2024-12'
+          date_end: ''
+          description: |2-
+              * Develop deep learning and generative models for drug discovery using transformer and flow matching architectures
+              * Deploy and scale ML pipelines on GCP using PyTorch Lightning and Docker
+              * Design multi-modal ML pipelines integrating molecular structure and biological assay data
+              * Maintain scalable pipelines using PyTorch, Lightning, RDKit, and HuggingFace
+              * Experience with computational chemistry tools like BioSolveIt, AutoDock Vina, and Boltz-2
+
         - title: Data Scientist
           company: Wellcome Sanger Institute
           company_url: 'https://www.sanger.ac.uk/group/lotfollahi-group/'
