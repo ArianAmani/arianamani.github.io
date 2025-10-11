@@ -67,7 +67,7 @@ sections:
           company_url: ''
           company_logo: 
           location: Cambridge, United Kingdom
-          date_start: '2024-12'
+          date_start: '2024-12-01'
           date_end: ''
           description: |2-
               * Develop deep learning and generative models for drug discovery using transformer and flow matching architectures
