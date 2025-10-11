@@ -1,7 +1,7 @@
 name: Deploy website to GitHub Pages
 
 env:
-  WC_HUGO_VERSION: '0.128.0'
+  WC_HUGO_VERSION: '0.125.0'
 
 on:
   # Trigger the workflow every time you push to the `main` branch
@@ -32,14 +32,14 @@ jobs:
           # Fetch history for Hugo's .GitInfo and .Lastmod
           fetch-depth: 0
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
+        uses: peaceiris/actions-hugo@v4
         with:
           hugo-version: ${{ env.WC_HUGO_VERSION }}
           extended: true
       - uses: actions/cache@v4
         with:
           path: /tmp/hugo_cache_runner/
-          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}-v2
           restore-keys: |
             ${{ runner.os }}-hugomod-
       - name: Setup Pages
