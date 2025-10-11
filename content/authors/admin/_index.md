@@ -17,24 +17,26 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Data Scientist | Researcher
+role: Machine Learning Scientist
 
 # Organizations/Affiliations to show in About widget
 organizations:
+  - name: AI VIVO
+    url: https://aivivo.co/
   - name: Wellcome Sanger Institute
-    url: https://www.sanger.ac.uk/group/lotfollahi-group/
+    url: https://lotfollahi.com/Lab
   # - name: Sapienza University of Rome
   #   url: https://www.uniroma1.it/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a Computer Science student/researcher at the Sapienza University of Rome, studying, working on, and researching deep learning applications in Life Sciences such as Single-Cell Genomics and Drug Discovery with a focus on Generative Models as a remote research assistant at the Wellcome Sanger Institute.
+bio: I am a Machine Learning Scientist at AI VIVO and a Data Scientist at the Wellcome Sanger Institute. My work is at the intersection of computational biology and drug discovery, where I develop deep generative and foundation models for molecules and cells. I specialize in molecule generation and single-cell perturbation modeling using advanced techniques like VAEs, Diffusions, Transformers, and Flow Matchings. I'm passionate about building AI methods that accelerate target discovery and therapeutic design.
 
 # Interests to show in About widget
 interests:
   - Deep Generative Models
-  - Drug Discovery & Genomics
+  - Drug Discovery
   - Single-Cell Genomics
-  - Adversarial Robustness
+  - Representation Learning
 
 # Education to show in About widget
 education:
@@ -42,6 +44,9 @@ education:
     - course: BSc in Computer Science
       institution: Amirkabir University of Technology
       year: 2020
+    - course: Applied Computer Science & Artificial Intelligence
+      institution: Sapienza University of Rome
+      year: 2023
 
 # Skills
 # For available icons, see: https://docIntelligences.hugoblox.com/getting-started/page-builder/#icons
@@ -112,9 +117,5 @@ social:
 highlight_name: true
 ---
 
-Arian Amani is a machine learning scientist at AI VIVO and a data scientist/research collaborator at the Wellcome Sanger Institute, working at the intersection of computational biology and drug discovery,
-developing deep generative and foundation models for molecules and cells. Experienced with molecule
-generation and single-cell perturbation modeling (VAEs, Diffusions, Transformers, GNNs, FlowMatchings), and
-representation learning for biological and chemical systems. Passionate about building AI methods that
-accelerate target discovery and therapeutic design. He is a student at the Sapienza University of Rome, and a research assistant at the [Lotfollahi Group](https://www.sanger.ac.uk/group/lotfollahi-group/), working on applications of machine learning, in various areas of life sciences, most importantly single-cell genomics and drug discovery.
+I am a Machine Learning Scientist at AI VIVO and a Data Scientist at the Wellcome Sanger Institute. My work is at the intersection of computational biology and drug discovery, where I develop deep generative and foundation models for molecules and cells. I specialize in molecule generation and single-cell perturbation modeling using advanced techniques like VAEs, Diffusions, Transformers, and Flow Matchings. I'm passionate about building AI methods that accelerate target discovery and therapeutic design.
 {style="text-align: justify;"}

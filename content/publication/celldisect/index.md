@@ -1,9 +1,9 @@
 ---
 title: "Integrating multi-covariate disentanglement with counterfactual analysis on synthetic data enables cell type discovery and counterfactual predictions"
 authors:
-- Stathis Megas*
-- admin*
-- Antony Rose*
+- Stathis Megas
+- admin
+- Antony Rose
 - Olli Dufva
 - Kian Shamsaie
 - Hesam Asadollahzadeh
@@ -11,6 +11,10 @@ authors:
 - Muzlifah Haniffa
 - Sarah Amalia Teichmann
 - Mohammad Lotfollahi
+author_notes:
+- "Equal contribution"
+- "Equal contribution"
+- "Equal contribution"
 date: "2025-06-03T00:00:00Z"
 doi: "10.1101/2025.06.03.657578"
 
@@ -35,7 +39,7 @@ tags:
 - Deep Learning
 - Single-Cell Genomics
 - Generative Models
-featured: false
+featured: true
 
 links:
 - name: "bioRxiv"
@@ -61,4 +65,3 @@ projects:
 - celldisect
 
 ---
-*These authors contributed equally.

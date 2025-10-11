@@ -2,8 +2,12 @@
 .idea/
 
 # Hugo
+_vendor/
 resources/
 public/
 jsconfig.json
 node_modules/
 .hugo_build.lock
+
+.DS_Store
+**/.DS_Store

@@ -26,7 +26,7 @@ image:
   caption: 'Image credit: [**Illustration by Michele Marconi**](https://www.nature.com/articles/d41586-018-05267-x)'
   focal_point: ''
   placement: 2
-  preview_only: false
+  preview_only: true
 
 authors:
   - admin
@@ -43,3 +43,8 @@ tags:
 categories:
   - Blog Posts
 ---
+
+This article was originally published on Medium.
+
+<a href="https://medium.com/@ArianAmani/leveraging-machine-learning-to-predict-cellular-behavior-in-drug-treatments-and-discovery-9b0ddbb197d5" target="_blank" rel="noopener" class="btn btn-primary">Read on Medium</a>
+
