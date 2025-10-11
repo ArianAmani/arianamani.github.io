@@ -41,12 +41,12 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: BSc in Computer Science
-      institution: Amirkabir University of Technology
-      year: 2020
     - course: Applied Computer Science & Artificial Intelligence
       institution: Sapienza University of Rome
       year: 2023
+    - course: BSc in Computer Science
+      institution: Amirkabir University of Technology
+      year: 2020
 
 # Skills
 # For available icons, see: https://docIntelligences.hugoblox.com/getting-started/page-builder/#icons
