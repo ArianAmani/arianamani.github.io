@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Arian Amani # Website name
-baseURL: 'https://arianamani.github.io/' # Website URL
+baseURL: 'https://arianamani.com/' # Website URL
 
 ############################
 ## LANGUAGE
