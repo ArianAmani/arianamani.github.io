@@ -1,0 +1,113 @@
+{{- $page := .wcPage -}}
+{{- $block := .wcBlock -}}
+{{- $data := $block.content -}}
+
+{{- $id := $block.id -}}
+{{- with $id -}}
+  <div id="{{ . }}"></div>
+{{- end -}}
+
+<section id="{{ $id | default "experience" }}" class="block block-experience">
+  <div class="container-fluid">
+    {{- with $data.title -}}
+      <h2 class="title text-center">{{ . }}</h2>
+    {{- end -}}
+
+    <div class="row">
+      {{- range $idx, $experience := $data.items -}}
+        {{- $end_date := $experience.date_end -}}
+        {{- if not $end_date -}}
+          {{- $end_date = now.Format "2006-01-02" -}}
+        {{- end -}}
+
+        {{- $start := time $experience.date_start -}}
+        {{- $end := time $end_date -}}
+
+        {{- $years := sub $end.Year $start.Year -}}
+        {{- $months := sub $end.Month $start.Month -}}
+
+        {{- if lt $months 0 -}}
+          {{- $years = sub $years 1 -}}
+          {{- $months = add $months 12 -}}
+        {{- end -}}
+
+        {{- $duration := "" -}}
+        {{- if gt $years 0 -}}
+          {{- if eq $years 1 -}}
+            {{- $duration = printf "%d year" $years -}}
+          {{- else -}}
+            {{- $duration = printf "%d years" $years -}}
+          {{- end -}}
+          {{- if gt $months 0 -}}
+            {{- if eq $months 1 -}}
+              {{- $duration = printf "%s and %d month" $duration $months -}}
+            {{- else -}}
+              {{- $duration = printf "%s and %d months" $duration $months -}}
+            {{- end -}}
+          {{- end -}}
+        {{- else if gt $months 0 -}}
+          {{- if eq $months 1 -}}
+            {{- $duration = printf "%d month" $months -}}
+          {{- else -}}
+            {{- $duration = printf "%d months" $months -}}
+          {{- end -}}
+        {{- else if eq $years 0 -}}
+          {{- $days := sub $end.Unix $start.Unix -}}
+          {{- $days = div $days 86400 -}}  {{/* 86400 seconds in a day */}}
+          {{- if lt $days 30 -}}
+            {{- $duration = printf "%d days" $days -}}
+          {{- else -}}
+            {{- $duration = "Less than a month" -}}
+          {{- end -}}
+        {{- end -}}
+
+        <div class="col-12{{ if eq $data.design.columns "2" }} col-lg-6{{ end }}">
+          <div class="card experience-card">
+            <div class="card-body">
+              <div class="d-flex align-items-start">
+                {{- with $experience.company_logo -}}
+                  <div class="flex-shrink-0 me-3">
+                    <img src="{{ $experience.company_logo | relURL }}" alt="{{ $experience.company }}" class="experience-logo" style="width: 50px; height: 50px; object-fit: contain;">
+                  </div>
+                {{- end -}}
+                <div class="flex-grow-1">
+                  <h5 class="card-title experience-title">
+                    {{ $experience.title }}
+                    {{- if $duration -}}
+                      <span class="text-muted fw-normal">({{ $duration }})</span>
+                    {{- end -}}
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    {{- with $experience.company_url -}}
+                      <a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $experience.company }}</a>
+                    {{- else -}}
+                      {{ $experience.company }}
+                    {{- end -}}
+                    {{- with $experience.location -}}
+                      <span class="experience-location"> • {{ . }}</span>
+                    {{- end -}}
+                  </h6>
+                  <div class="experience-dates text-muted small mb-2">
+                    {{- $start_formatted := $start.Format ($data.date_format | default "Jan 2006") -}}
+                    {{- $end_formatted := "" -}}
+                    {{- if $experience.date_end -}}
+                      {{- $end_formatted = (time $experience.date_end).Format ($data.date_format | default "Jan 2006") -}}
+                    {{- else -}}
+                      {{- $end_formatted = "Present" -}}
+                    {{- end -}}
+                    {{ $start_formatted }} - {{ $end_formatted }}
+                  </div>
+                  {{- with $experience.description -}}
+                    <div class="experience-description">
+                      {{ . | markdownify }}
+                    </div>
+                  {{- end -}}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      {{- end -}}
+    </div>
+  </div>
+</section>
