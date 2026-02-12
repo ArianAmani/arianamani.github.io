@@ -6,7 +6,7 @@ authors:
 - Mohammad Vali Sanian
 - Aryan Yazdan Parast
 - Hesam Asadollahzadeh
-- Arian Amani
+- admin
 - Naveed Akhtar
 - Sarah Cooper
 - Andrew Bassett
